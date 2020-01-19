@@ -1,0 +1,48 @@
+.content {
+    margin: 0 auto;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.save {
+    margin-left: 46%;
+}
+
+.button {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: darkslategray;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    box-shadow: 0 0 5px #000, inset 0 1px 8px -2px #fff;
+    margin-top: 30px;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.min, .sec, .milsec {
+    border: 3px solid black;
+    width: 100px;
+    height: 120px;
+    border-radius: 8px;
+    font-size: 90px;
+    text-align: center;
+}
+
+.sec {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.visNo {
+    visibility: hidden;
+}
